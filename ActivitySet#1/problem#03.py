@@ -9,9 +9,8 @@ h = float(hrs)
 rate=input("enter rate:")
 r=float(rate)
 if h>40.0:
-    reg=h*r
-    ot=(h-40.0)*(r*0.5)
-    pay=reg+ot
+    ot=(h-40.0)*(r*1.5)
+    pay=40*r+ot
     print(pay)
 else:
     pay=h*r

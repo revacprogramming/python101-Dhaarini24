@@ -1,8 +1,8 @@
 def computepay(hours, rate):
     if hours>40:
-       reg=hours*rate
-       ot=(hours-40.0)*(rate*0.5)
-       pay=reg+ot
+       #reg=hours*rate
+       ot=(hours-40.0)*(rate*1.5)
+       pay= 40*r+ot
     else:
        pay=hours*rate
     return pay
