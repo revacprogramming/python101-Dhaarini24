@@ -7,7 +7,7 @@ count = 0
 for line in fh:
     if not line.startswith('From:'):
         continue
-    words=line.split()
+    words= line.split()
     print(words[1])
     count=count+1
     
