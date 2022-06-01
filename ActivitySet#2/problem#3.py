@@ -5,7 +5,7 @@ def get_cs():
 
 
 def cs_to_lot(cs):
-    """c onvert connected string to list of strings"""
+    """convert connected string to list of strings"""
 
 
 def main():
