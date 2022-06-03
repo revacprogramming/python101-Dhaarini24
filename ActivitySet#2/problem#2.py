@@ -4,7 +4,7 @@ def add(a, b):
     sum = q+p
 
 def output(a, b, sum):
-    print('the sum of a and b is sum')  # 
+    print('the sum of a and b is sum')  
 
 
 def main():
