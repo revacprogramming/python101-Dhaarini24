@@ -13,7 +13,7 @@ def main():
     sum = add(a, b)
 
     output(a, b, sum)
-.  
+ 
 
 if name == '__main__':
     main()
