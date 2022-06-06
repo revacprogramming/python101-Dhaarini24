@@ -2,16 +2,17 @@ def get_cs():
    x =input('enter the string')
    return x 
 def cs_to_lot(cs,lst):
+    lst=list()
     b=cs.split(';')
-    fpr word in b :
+    for word in b :
         lst.append()
-  return lst 
+        return lst 
 
 
 def main():
     cs = get_cs()
     lot = list()
-    lot = cs_to_lot(cs)
+    lot = cs_to_lot(cs,lot)
     print(lot)
 
 

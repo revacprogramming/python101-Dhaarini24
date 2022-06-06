@@ -3,7 +3,7 @@
 def add(a, b):
   p=int(a)
   q=int(b)
-  c=a+b
+  c=p+q
   return c # ...
 
 
@@ -12,6 +12,6 @@ def main():
     b = input('enter the second number') # ...
 
     c = add(a, b)
-    print(c) # ...
+    print(c) 
 
 main()

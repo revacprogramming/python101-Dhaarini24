@@ -1,21 +1,21 @@
 def add(a, b):
     q=int(a)
     p=int(b)
-    sum = q+p
-
-def output(a, b, sum):
-    print('the sum of a and b is sum')  
+    m = q+p
+    return m
+  
+def output(p,q,m):
+    print('the sum of a and b is ',m)  
 
 
 def main():
-    a = input()
-    b = input()
+    a,b = input_two_numbers()
     sum = add(a, b)
 
-    output(a, b, sum)
+    output( a,b,sum)
  
-
-if name == '__main__':
+name=input('whats the operation?')
+if name == 'addition':
     main()
 
 
