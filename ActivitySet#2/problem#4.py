@@ -4,7 +4,7 @@ def get_cs():
     return str
 
 #"""convert connected string to list of strings"""
-def cs_to_lot(cs,lst):
+def  cs_to_lot(cs,lst):
     word=cs.split(';')
     
     for exam in word:
