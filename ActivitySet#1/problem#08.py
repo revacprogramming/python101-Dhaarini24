@@ -4,7 +4,7 @@ fh = open(fname)
 count=0
 a=0
 for line in fh:
-    if not line.startswith("X-DSPAM-Confidence:"):
+    if not line.startswith("X-DSPAM-Con fidence:"):
        continue
     count=count+1
     b=float(line[21:])
