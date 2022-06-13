@@ -11,9 +11,9 @@ def  cs_to_lot(cs,lst):
       short=exam.split('=')
       tups=(short[0],short[1])
       lst.append(tups)
-    #for test in word:
-        #lst.append(test)
-    return lst
+    for test in word:
+        lst.append(test)
+        return lst
 
 #"""convert list of strings to connected string"""
 def lot_to_cs(lot):
