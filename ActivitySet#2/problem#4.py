@@ -3,7 +3,7 @@ def get_cs():
     str=input('enter the shortcuts and its reps in form "word=sf" \n')
     return str
 
-#"""convert connected string to list of strings"""
+#"""convert connected strin g to list of strings"""
 def  cs_to_lot(cs,lst):
     word=cs.split(';')
     
