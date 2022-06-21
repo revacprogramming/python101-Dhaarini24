@@ -5,7 +5,7 @@ def add(a, b):
     return m
   
 def output(p,q,m):
-    print('the sum of a and b is ',m)  
+    print('the   sum of a and b is ',m)   
 
 
 def main():
